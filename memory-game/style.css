@@ -1,0 +1,90 @@
+
+body {
+	text-align:center;
+	font-family:'Ubuntu', sans-serif;
+	width:80%;
+	margin: 0 auto;
+}
+.board-box {
+	margin: 50px auto;
+	border-radius:20px;
+	background:#808080;
+}
+.board {
+	height: 50%;
+	width: 50%;
+}
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid #ffbf00;
+	background: #ffff00;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 8%;
+	float: left;
+}
+.card img {
+	height: 200px;
+	width: 150px;
+}
+.scoreBoard {
+	padding: 10px;
+	margin: 0px auto;
+	float:right;
+	width:45%;
+}
+.highlight {
+	color:#fff;
+}
+h1 {
+	color: rgb(2, 132, 130);
+	font-size: 80px;
+	font-family: 'Parisienne', cursive;
+}
+h2 {
+	color: #ffd700;
+	font-size: 24px;
+}
+h3 { 
+	font-size: 22px;
+	color:#ffbf00;
+}
+p {
+	color:#000;
+	font-size:16px;
+}
+.name {
+	color:#ffbf00;
+	font-size:30px;
+	font-family: 'Parisienne', cursive;
+	padding: 5px;
+}
+footer {
+	clear:both;
+	background: #808080;
+	color:#fff;
+}
+nav {
+	background:#808080;
+	margin: 0 auto;
+}
+nav a {
+	text-decoration:none;
+	color:#fff;
+	background:#ffbf00;
+	padding: 35px;
+	display:block;
+	float:left;
+}
+nav a:hover {
+	background:#ee5f3c;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
